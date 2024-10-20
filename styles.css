@@ -137,3 +137,68 @@ footer p{
 #intro{
     width: 70%;
 }
+
+
+
+/*Storyyboard*/
+.storyboard {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.scene {
+    margin-bottom: 30px;
+}
+
+.scene h2 {
+    color: #005f73;
+    margin-bottom: 10px;
+}
+
+.scene p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/*Moodoard */
+.moodboard {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.moodboard h2 {
+    color: #0a9396;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.moodboard-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.moodboard-item {
+    width: 45%;
+}
+
+.moodboard-item h3 {
+    color: #005f73;
+    margin-bottom: 10px;
+}
+
+.moodboard-item p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
